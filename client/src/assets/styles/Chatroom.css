@@ -1,0 +1,80 @@
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+body {
+    background-image: linear-gradient(to right, #304352, #d7d2cc);;   
+}
+h1 {
+    color: #ff21be;
+    text-align: center;
+    font-family: Verdana;
+}
+.avatar {
+    display:flex;
+}
+#time {
+    margin-left:10%;
+    margin-top:-5%;
+}
+#typeHere {
+    height:50px;
+    width:704px;
+    font-size:15px;
+    margin-left: 22.5%;
+    text-indent: 10px;
+    position:absolute;
+    margin-top:0%;
+}
+#colorWheel {
+    position:absolute;
+    width:100px;
+    margin:0px;
+    margin-left:68%;
+}
+#messageBox {
+    background-color:white;
+    margin:auto;
+    height:450px;
+    border:1px;
+    width:700px;
+    overflow:auto;
+}
+.theirMessages {
+    background-color:#e7eff6;
+    margin-right:5%;
+    margin-top:4%;
+    margin-bottom:2%;
+    padding:10px;
+}
+
+.users {
+    border:1px solid black;
+    height:50px;
+    width:100px;
+    position:absolute;
+}
+#userFormArea {
+    background-color:white;
+    margin:auto;
+    margin-top: 15%;
+    padding:5%;
+    padding-top: 2%;  
+    width:500px;
+    border:1px solid gray;
+}
+#username {
+    color:#304352;
+    font-weight: bold;
+}
+input {
+    display:flex;
+    margin-top:4%;
+    height:40px;
+    width:300px;
+    background-color:#D8D8D8;
+}
+::-webkit-input-placeholder {
+    text-indent:2%;
+}
+
+
